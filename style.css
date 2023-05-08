@@ -71,8 +71,30 @@ body {
    
 }
 
-@media screen and (max-width:500px)  { 
+@media screen and (max-width:1000px)  { 
     .textbg {
         font-size: 20px;     
     }
+}
+
+@media screen and (max-width:1000px) {
+   .pimg1 { 
+      background-image: url(images/image1.png);
+      min-height: 100%; 
+  }
+  
+  .pimg2 { 
+      background-image: url(images/image2.png);
+      min-height: 400px; 
+  }
+  
+  .pimg3 { 
+      background-image: url(images/image3.png);
+      min-height: 400px; 
+  }
+  
+     
+    
+ 
+   
 }
